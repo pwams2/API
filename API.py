@@ -3,10 +3,6 @@ from flask import jsonify
 
 app = Flask(__name__)
 
-@app.route('/hello/', methods=['GET', 'POST'])
-def welcome():
-    return "Hello World!"
-
 @app.route('/logs/')
 def log():
     return jsonify({'id':'1',
