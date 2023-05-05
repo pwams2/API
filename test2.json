@@ -1,0 +1,19 @@
+{   
+    "_index": "logz-dkdhmyttiiymjdammbltqliwlylpzwqb-160808_v1",   
+    "_type": "wineventlog",   
+    "_id": "AVZp9m4P-SDvkjEsrQTt",  
+    "_score": null,   
+    "_source": {"computer_name": "WIN-E9CD0MMN9GJ","process_id": 676, "keywords": ["Classic"],  
+    "logzio_codec": "json",   "log_name": "System","level": "Information",   
+    "@metadata": {"beat": "winlogbeat", "type": "wineventlog"},  
+    "record_number": "24082",   
+    "event_data": {"Binary":"770069006E006C006F00670062006500610074002F0034000000",    
+    "param1": "winlogbeat","param2": "running"},"type": "wineventlog","message": "The winlogbeat service entered the running state.","tags": ["beats-5015","_logzio_codec_json","_jsonparsefailure"],"thread_id": 3876,"@timestamp": "2016-08-08T11:42:43.734+00:00",   
+    "event_id": 7036,"provider_guid": "{555908d1-a6d7-4695-8e1e-26931d2012f4}",  
+    "beat": {"hostname": "WIN-E9CD0MMN9GJ","name": "WIN-E9CD0MMN9GJ"},   
+    "source_name": "Service Control Manager"},
+    "fields": {"@timestamp": [1470656563734]},
+    "highlight": {"type": ["@kibana-highlighted-field@wineventlog@/kibana-highlighted-field@"   ] },
+    "sort": [1470656563734]
+}
+
